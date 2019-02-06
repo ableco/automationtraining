@@ -1,0 +1,24 @@
+/* univertal / tag selector */
+
+h1 {
+  color: yellow;
+}
+
+/*id selector */
+
+#main-title {
+  color: orange;
+}
+
+/* class selector */
+
+.another-title {
+  color: orange;
+}
+
+/* Top 5 Selectors in css
+  1. ID
+  2. Classes
+  3 Universal / Tag Selectors
+
+*/
