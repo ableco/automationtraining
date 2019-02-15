@@ -1,0 +1,30 @@
+/* 
+The Box Model 
+
+Evething in HTML is a box.
+
+Inline Elements
+Block Elements
+
+*/
+
+header {
+  background-color: red;
+}
+
+nav {
+  background-color: yellow;
+  float: right;
+}
+
+a {
+  background-color: blue;
+  color: white;
+  display: block;
+}
+
+.feature {
+  display: inline-block;
+  width: 400px;
+  background-color: purple;
+}
