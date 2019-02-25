@@ -1,0 +1,33 @@
+* { /* Universal */
+  box-sizing: border-box;
+  padding: 50px;
+}
+p { /* Element */
+}
+
+.name { /* Class */
+}
+
+#mega { /* Id */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ccc;
+}
+
+section {
+  background-color: #999;
+  width: 70%;
+  float: left;
+}
+
+aside {
+  background-color: #666;
+  width: 30%;
+  float: right;
+}
