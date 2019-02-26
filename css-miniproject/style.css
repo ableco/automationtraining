@@ -1,0 +1,168 @@
+*{
+  font-family: sans-serif;
+  color: #a7a7a7;
+  margin: 0px;
+  padding: 0px;
+}
+
+#logo_prechu{
+  float: left;
+  margin-left: 80px;
+  padding-top: 5px;
+}
+
+.menu{
+  list-style: none;
+  float: right;
+  margin: 20px 80px 0 0;
+}
+
+a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+
+.menu > li a:hover{
+  border-bottom: 2.5px solid #6f94e3;
+}
+
+.menu > li {
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 0 0 10px;
+}
+
+.slider{
+  margin-top: 20px;
+  clear: both;
+  height: 420px;
+  background: url(./assets/background.png);
+  background-size: cover;
+}
+
+.iphone{
+  float: left;
+  width: 50%;
+}
+
+.iphone > img {
+  padding-left: 140px;
+}
+
+.content_slider{
+  float: right;
+  width: 50%;
+  margin-top: 105px;
+}
+
+.content_slider > p {
+  color: #ffffff;
+  line-height: 34px;
+}
+
+.content_slider > h2 {
+  color: #ffffff;
+}
+
+.content_slider > button {
+  border: 0px;
+  background: url(./assets/icon-check.png) no-repeat;
+  background-color: #3f9ff6;
+  background-size: 15%;
+  background-position: 5px;
+  color: #ffffff;
+  padding: 8px;
+  padding-left: 28px;
+  margin-top: 25px;
+}
+
+li {
+  color: a7a7a7;
+  text-decoration: none;
+  list-style: none;
+}
+
+.features {
+  clear: both;
+  height: 300px;
+}
+
+.feature {
+  float: left;
+  width: 33.33%;
+  margin-top: 55px;
+}
+
+.circle{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  float: left;
+  margin-bottom: 20px;
+  position: relative;
+  left: 36%;
+}
+
+#circle_blue{
+  background: #4993f9 url(./assets/icon-pencil.png) no-repeat;
+  background-size: 48%;
+  background-position: center;
+}
+
+#circle_red{
+  background: #df3232 url(./assets/icon-desktop.png) no-repeat;
+  background-size: 58%;
+  background-position: center;
+}
+
+#circle_yellow{
+  background: #eab22d url(./assets/icon-basket.png) no-repeat;
+  background-size: 58%;
+  background-position: center;
+}
+
+h3 {
+  clear: both;
+  color: #3f9ff6;
+  text-align: center;
+  font-size: 14px;
+}
+.feature > p {
+  text-align: center;
+  font-size: 11px;
+}
+
+h2, h4 {
+  color: #303031;
+  line-height: 50px;
+}
+
+.information_shopping{
+  clear: both;
+  height: 360px;
+}
+
+.shopping_image{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.shopping_text{
+  float: right;
+  width: 50%;
+  margin: 60px 0 60px 0;
+  text-align: left;
+}
+
+.shopping_items{
+  line-height: 35px;
+}
+
+footer{
+  border-top: 1px solid #a7a7a7;
+  clear: both;
+  text-align: center;
+  font-size: 12px;
+  padding: 25px 0 25px 0;
+}
