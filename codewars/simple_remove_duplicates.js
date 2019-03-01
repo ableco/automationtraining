@@ -3,7 +3,6 @@ function solve (arr) {
     var result = []
     for (let i = size-1; i >= 0; i--){    
         if(result.indexOf(arr[i]) == -1){ 
-            console.log(arr[i])
             result.push(arr[i])
         }
     }
