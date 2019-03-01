@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: white
+  background-color: white;
+  font-family: 'Helvetica', arial, sans-serif;
 }
 header {
   display: flex;
@@ -17,7 +18,13 @@ header {
   margin-right: 115px;
 }
 
+a {
+  text-decoration: none;
+}
+
 footer {
+  border-top: 1px solid #ddd;
+  padding: 35px 0;
   text-align: center;
 }
 
@@ -32,7 +39,6 @@ ul {
 }
 
 li {
-  font-family: Helvetica, sans-serif;
   font-size: 15px;
   display: inline;
   margin-left: 10px;
@@ -57,19 +63,25 @@ article h3 {
 .slide-description {
   margin-right: 50px;
   color: white;
-  font-family: 'Helvetica Neue';
   font-size: 25px;
   line-height: 50px;
 }
 
 .button-primary {
-  display: flex;
-  align-items: center;
-  border-radius: 2%;
   background: #5094F2;
+  background-image: url(assets/icon-check.png);
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  padding: 7px 7px 7px 40px;
+  display: inline-block;
+  line-height: 1.3;
+  background-position: 8px 7px;
+  text-decoration: none;
+  align-items: center;
   font-size: 18px;
   color: white;
   margin-top: 25px;
+}
 }
 
 .sign-up-text{
