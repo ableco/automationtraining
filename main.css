@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: white
+}
+header {
+  display: flex;
+  clear: both;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 23px;
+  margin-left: 115px;
+  margin-right: 115px;
+}
+
+footer {
+  text-align: center;
+}
+
+nav {
+  justify-content: right;
+  align-items: center;
+  align-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+article h3 {
+  color: #5094F2;
+  margin-bottom: 5px;
+}
+.slide {
+  display: flex;
+  background-image: url(assets/background.png);
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-image {
+  margin-right: 50px;
+}
+
+.slide-description {
+  margin-right: 50px;
+  color: white;
+  font-family: 'Helvetica Neue';
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.button-primary {
+  display: flex;
+  align-items: center;
+  border-radius: 2%;
+  background: #5094F2;
+  font-size: 18px;
+  color: white;
+  margin-top: 25px;
+}
+
+.sign-up-text{
+  margin-left: 18px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px;
+}
+
+.icon {
+  display: flex;
+  width: 186px;
+  height: 186px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-bottom: 25px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.icon-pencil {
+  background-image: url(assets/icon-pencil.png);
+  background-color: #5094F9;
+}
+
+.icon-desktop {
+  background-image: url(assets/icon-desktop.png);
+  background-color: #D9474A;
+}
+
+.icon-basket {
+  background-image: url(assets/icon-basket.png);
+  background-color: #ebbb11;
+}
+
+.product-description {
+  text-align: center;
+}
+
+.product-title {
+  color: #5094F2;
+}
+
+.shopping-cart {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 70px;
+  margin-right: 70px;
+  border-bottom: 1px;
+  border-color: darkgray;
+}
+
+.shopping-cart-description {
+  line-height: 36px;
+  margin-left: 70px;
+}
+
+header h2 {
+  font-family: Helvetica;
+  font-size: 40px;
+  color: darkgrey;
+}
+
+div h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: darkgray;
+}
+
