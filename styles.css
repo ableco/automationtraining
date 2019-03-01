@@ -1,0 +1,42 @@
+ul { 
+    list-style-type: none;
+}
+ul li{ 
+    display: inline; 
+}
+li a {
+    text-decoration: none;
+    color: gray;
+    display: inline-block;
+}
+.nav-right {
+    float: right;
+}
+#iphone-placement{
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+#inner-banner{
+    position: absolute;
+    left: 40%;
+    top: 200px; 
+}
+h2, h4{
+    color: white;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight:normal;
+}
+button{
+    background-color: #4169E1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button #sign-up {
+    margin-bottom: 10px;
+}
