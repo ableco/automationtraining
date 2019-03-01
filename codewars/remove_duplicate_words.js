@@ -15,13 +15,3 @@ function removeDuplicateWords (s) {
 
 example = 'alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta'
 console.log(removeDuplicateWords (example))
-
-/*
-let filteredString = []
-    for (let i=0; i<size; i++){
-        if (filteredString === s[i]){
-            filteredString [i] = s[i]
-        }
-
-    }
-*/
