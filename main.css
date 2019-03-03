@@ -82,7 +82,6 @@ article h3 {
   color: white;
   margin-top: 25px;
 }
-}
 
 .sign-up-text{
   margin-left: 18px;
@@ -141,6 +140,7 @@ article {
   margin-right: 70px;
   border-bottom: 1px;
   border-color: darkgray;
+  padding-bottom: 40px;
 }
 
 .shopping-cart-description {
