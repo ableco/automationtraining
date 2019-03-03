@@ -13,13 +13,14 @@ header {
   clear: both;
   justify-content: space-between;
   align-items: baseline;
-  margin: 23px;
+  margin-top: 23px;
   margin-left: 115px;
   margin-right: 115px;
 }
 
 a {
   text-decoration: none;
+  padding-bottom: 23px;
 }
 
 footer {
