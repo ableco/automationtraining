@@ -1,0 +1,131 @@
+ul { 
+    list-style-type: none;
+}
+ul li{ 
+    display: inline; 
+}
+li a {
+    text-decoration: none;
+    color: gray;
+    display: inline-block;
+}
+.nav-right {
+    float: right;
+    margin-right: 30%;
+}
+#iphone-placement{
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+#inner-banner{
+    position: absolute;
+    left: 40%;
+    top: 200px; 
+}
+h2, h4{
+    color: white;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight:normal;
+}
+button{
+    background-color: #4169E1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button #sign-up {
+    margin-bottom: 10px;
+}
+.icons{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    color: gray;
+    margin-left: 250px;
+}
+.icons h4{
+    color: #4169E1;
+    margin-top: 70px;
+}
+#blue-circle {
+    float: left; 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #4169E1;
+    margin: 20px 20px 20px 100px;
+}
+.pencil-icon {
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 60px; 
+}
+#red-circle {
+    float: left; 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #A80000;
+    margin: 20px 20px 20px 20px;
+}
+.desktop-icon {
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 60px; 
+}
+#yellow-circle {
+    float: left; 
+    width: 150px;;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #FFD700;
+    margin: 20px 20px 20px 20px;
+}
+.basket-icon {
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 60px; 
+}
+#shopping-cart {
+    display: flex;
+    justify-content: center;
+    margin-left: 0 70px 0 70px;
+    border-bottom: 1px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+h3 {
+    color: gray;
+    font-weight: normal;
+    font-size: 30px;
+}
+#shopping-image {
+    float: left;
+}
+#shopping-desc {
+    width: 30%;
+    margin-left: 50px;
+    color: gray;
+}
+#shopping-desc p, #blue-circle p, #red-circle p, #yellow-circle p {
+    font-size: 12px;
+}
+#shopping-desc h4 {
+    color: gray;
+}
+footer p {
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+}
