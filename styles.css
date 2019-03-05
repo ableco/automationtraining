@@ -11,6 +11,7 @@ li a {
 }
 .nav-right {
     float: right;
+    margin-right: 30%;
 }
 #iphone-placement{
     position: absolute;
@@ -45,7 +46,7 @@ button #sign-up {
     height: 350px;
     overflow: hidden;
     color: gray;
-    margin-left: 150px;
+    margin-left: 250px;
 }
 .icons h4{
     color: #4169E1;
@@ -116,7 +117,12 @@ h3 {
     width: 30%;
     margin-left: 50px;
     color: gray;
-
+}
+#shopping-desc p, #blue-circle p, #red-circle p, #yellow-circle p {
+    font-size: 12px;
+}
+#shopping-desc h4 {
+    color: gray;
 }
 footer p {
     text-align: center;
