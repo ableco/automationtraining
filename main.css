@@ -9,18 +9,13 @@ body {
   font-family: 'Helvetica', arial, sans-serif;
 }
 header {
-  display: flex;
-  clear: both;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-top: 23px;
   margin-left: 115px;
   margin-right: 115px;
+  padding: 15px 0px;
 }
 
 a {
   text-decoration: none;
-  padding-bottom: 23px;
 }
 
 footer {
@@ -30,9 +25,8 @@ footer {
 }
 
 nav {
-  justify-content: right;
-  align-items: center;
-  align-content: center;
+  float: right;
+  padding-top: 24px;
 }
 
 ul {
@@ -51,18 +45,17 @@ article h3 {
   margin-bottom: 5px;
 }
 .slide {
-  display: flex;
   background-image: url(assets/background.png);
-  justify-content: center;
-  align-items: center;
 }
 
 .slide-image {
-  margin-right: 50px;
+  margin: 33px 50px 0px 200px;
 }
 
 .slide-description {
-  margin-right: 50px;
+  float: right;
+  margin-top: 121px;
+  margin-right: 173px;
   color: white;
   font-size: 25px;
   line-height: 50px;
