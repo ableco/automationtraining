@@ -1,0 +1,258 @@
+
+header{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+}
+
+nav img{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.menu-links{
+    width: 300px;
+    margin-left: 70%;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.menu-links a{
+    margin: 8px;
+    color: #999999;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.menu-links a:hover{
+    text-decoration: none;
+    border-bottom: solid 3px #5094F2;
+    padding-bottom: 5px;
+}
+
+
+.carousel-container{
+    position: absolute;
+    width: 58%;
+    height: 58%;
+    bottom: 30%;
+    left: 25%;
+    display: inline-block;
+}
+
+.carousel-img{
+    margin: 0 auto;
+    width: 50%;
+    float: left;
+    top: 50px;
+}
+
+
+.carousel-details{
+    margin: 0 auto;
+    margin-left: 55%;
+    color: white;
+
+}
+
+.carousel-details h2{
+    font-size: 34px;
+    font-weight: 100px;
+    font-family: Helvetica, sans-serif;
+}
+
+.carousel-details p{
+    font-size: 30px;
+    font-weight:100px;
+    font-family: Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+
+.main-container{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    display: inline-block;
+}
+
+
+.signup-button{
+    background-color:#5094F2;
+    border-radius: 10px;
+    width: 40%;
+    display: inline-block;
+    border: 0px solid transparent;
+}
+
+.signup-button img{
+   float: left;
+   padding: 12px;
+}
+
+.signup-button p{
+    font-size: 16px;
+    color: #FFFFFF;
+ }
+
+ .left-nav {
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+ }
+
+ .left-nav p {
+    font-size: 100px;
+    color: #FFFFFF;
+ }
+
+ .right-nav {
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+ }
+
+ .right-nav p {
+    font-size: 100px;
+    color: #FFFFFF;
+ }
+
+
+
+ 
+.circle-blue{
+    height: 200px;
+    width: 200px;
+    background-color:#5094F2;
+    border-radius: 50%;
+    margin: 0 auto;
+    left: 300px;
+}
+
+.circle-blue img{
+    padding: 40px;
+    display: block;
+    margin: 0 auto;
+    top: 50%;
+}
+
+.circle-red{
+    height: 200px;
+    width: 200px;
+    background-color:#D94748;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.circle-red img{
+    padding: 55px;
+    display: block;
+    margin: 0 auto;
+    top: 50%;
+}
+
+.circle-yellow{
+    height: 200px;
+    width: 200px;
+    background-color:#EBBB11;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.circle-yellow img{
+    padding: 55px;
+    display: block;
+    margin: 0 auto;
+    top: 50%;
+}
+
+.circle img{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    margin: 50px;
+}
+.box{
+    width: 25%;
+    height: 300px;
+    display: inline-block;
+    margin: 55px;
+    text-align: center;
+}
+
+.box h3{
+    color: #5094F2;
+}
+
+.box p{
+    color: #909090;
+}
+
+.container img{
+    width: 100%;
+}
+.products-container{
+    width: 100%;
+    padding: 10px;
+}
+
+.shoppingcart-container{
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    left: 300px;
+    width: 100%;
+}
+
+.shoppingcart-container h2{
+    font-size: 35px;
+    color: #6F7173;
+    margin-left: 2em;
+}
+
+
+.shoppingcart-img{ 
+    top: 50%;
+    left: 30%;
+    float: left;
+    margin: 30px;
+    text-align: center;
+}
+
+.shoppingcart-img h2{ 
+    font-size: 35px;
+    color: #6F7173;
+}
+
+ .details-container{
+    margin: 0 auto;
+    width: 330px;
+}
+
+.details-container h4{
+    font-size: 20px;
+    color: #909090;
+}
+
+.details-container p{
+    font-family: Helvetica, sans-serif;
+    color: silver;
+    font-size: 13px;
+    line-height: 2em;
+}
+
+footer{ 
+    width: 100%;
+}
+
+footer p{
+    color: black;
+    text-align: center;
+}
+
+footer hr{
+    border: 1px thin #909090;
+}
