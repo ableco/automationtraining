@@ -1,0 +1,233 @@
+header {
+    height: 90px;
+    width: 100%;
+}
+
+body{
+    margin: 0%
+}
+
+.prechuBlock {
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 30px;
+}
+
+nav {
+    float: right;
+    margin-top: 40px;
+    margin-right: 120px;
+}
+
+.navOptions{
+   display: inline-block;
+   padding: 10px 10px 10px 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   color: gray;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    border-bottom: solid 3px #5094F2;
+    text-decoration: none;
+    padding-bottom: 20px;
+ }
+
+
+.bannerBlock {
+    height:500px; 
+    width: 100%;
+}
+
+.backgroundImage {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height:500px;
+}
+
+.fa-chevron-left {
+    margin-left: 100px;
+    margin-top: 250px;   
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    color: white;
+}
+
+.iphoneImage { 
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.bannerArea {
+    display: inline-block;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.fa-chevron-right {
+    margin-left: 730px;
+    margin-top: 250px;   
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    float: right;
+    color: white;
+}
+
+.LoremTitle {
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    font-size: 32px;
+}
+
+.dummyText {
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+p span {
+    display: block;
+}
+
+.bannerBlock p span {
+    padding: 5px;
+}
+
+.cta {
+    padding: 8px;
+    background:  #00aaff;
+    color: white;
+    border: 0px solid transparent;
+    height: 45px;
+    width: 160px;
+}
+
+.cta:hover, .fa-chevron-left:hover,  .fa-chevron-right:hover {
+    cursor: pointer;
+}
+
+.checkImg {
+    float: left;
+
+}
+
+.signup {
+    float: left;
+    padding-left: 12px;
+    padding-top: 2px;
+    font-size: 18px;
+} 
+
+.bigIcons {
+    height:360px; 
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+.bigIcons div {
+    float:left;
+    font-family: Helvetica, sans-serif;    
+}
+
+.pencilImg {
+    height:200px; 
+    width: 200px;
+    background-color: #00aaff;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 10px; 
+}
+
+.pencilImg img {
+    margin-top: 45px;
+    margin-left: 65px;
+}
+
+.bigIcons h3{
+    font-weight: 100;
+    color: #00aaff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.bigIcons p{
+    text-align: center;
+    margin-top: -10px; 
+    color: gray;
+    font-size: 12px;
+}
+ 
+.desktopImg {
+    height:200px; 
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 200px;
+
+}
+.desktopImg img{
+    margin-top: 55px;
+    margin-left: 52px;
+}
+
+.basketImg {
+    height:200px; 
+    width: 200px;
+    background-color:#e6e600;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 200px;
+}
+
+.basketImg img {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.MainTextForIcons{
+    position: relative;
+    margin-top: 200px; 
+    margin-bottom: 20px; 
+    margin-left: -210px;
+}
+
+.flexShopping{
+    display: flex;
+    justify-content: center;
+    color: gray; 
+    font-weight: 100;
+    font-family: Helvetica, sans-serif;
+}
+
+.flexShopping h1{
+    font-size: 32px;
+    text-align: center;
+}
+
+.shoppingCartText
+{
+    margin-left: 80px; 
+    line-height: 40px;
+} 
+
+.shoppingCartText p {
+    font-size: 12px;
+}
+
+footer {
+    color: gray;
+    text-align: center;
+}
+
+ footer hr {
+    border-top: 1px solid;
+ }
