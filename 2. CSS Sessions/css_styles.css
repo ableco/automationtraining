@@ -1,0 +1,154 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px;
+  }
+hr {
+    border-top: 1px solid lightgray;
+  }
+a {
+    color: lightskyblue;
+    text-decoration:none;
+  }
+
+.menu { 
+    overflow: hidden;  
+}
+.menu a{
+  color: #999999;
+}
+.logo {
+  float: left;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+.options-right {
+  list-style-type: none;
+  float: right;
+}
+.options-right li{
+  display: inline-block;
+  padding: 10px 10px;
+  border-bottom: 3px solid white;
+}
+.options-right li:hover{
+  border-bottom: 3px solid lightblue;
+}
+.banner{
+  background-image: url(assets/background.png);
+  padding:20px;
+  display:flex;
+  justify-content:space-around;
+  height:300px;
+}
+.banner-arrows{
+  display:flex;
+  align-items: center;
+  font-size: 45px;
+  color:grey;
+}
+.banner-image{
+  display:flex;
+  align-items:center;
+  height:300px;
+}
+.phone{
+  max-width: 100%;
+  height: 300px;
+}
+.banner-text {
+  text-align: left;
+  line-height:25px; 
+  color: white;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.banner-text>h1{
+  font-weight:200; 
+  font-size:20px;
+}
+.banner-text>p{
+  font-size:15px;
+}
+.signup-button {
+  background-color: dodgerblue;
+  border: none;
+  color:white;
+  font-size:15px;
+  display:flex;
+  width:125px;
+  height: 30px;
+  padding: 3px 2px;
+}
+
+.main-options {
+  width:90%;
+  display:flex;
+  position:relative;
+  margin:50px;
+  padding:10px;
+  justify-content:space-around;
+}
+.main-options-column {
+  width:300px;
+}
+.main-options-text {
+  justify-self:center;
+}
+.main-options-text>h4{
+  color:dodgerblue;
+  font-weight: 100;
+  text-align: center;
+}
+.main-options-text>p{
+  font-size:11px;
+  text-align: center;
+  color:darkgrey;
+}
+.pencil {
+  height: 150px;
+  width: 150px;
+  background-color: dodgerblue;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.desktop {
+  height: 150px;
+  width: 150px;
+  background-color: crimson;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.basket {
+  height: 150px;
+  width: 150px;
+  background-color: gold;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.shopping-cart {
+  width:90%;
+  margin-left: 100px;
+  display:flex;
+  color: #555555;
+}
+.cart-text{
+  width:500px;
+  padding:10px;
+  color:darkgrey;
+}
+.footer{ 
+  color:lightgrey;
+  padding:10px;
+  text-align: center;
+  
+}
