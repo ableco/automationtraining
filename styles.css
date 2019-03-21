@@ -1,0 +1,219 @@
+html{
+  border: 0;
+}
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #454a4e;
+  width: 78.125rem;
+}
+
+main{
+  padding: 0 10%;
+}
+
+header {
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px 140px 0 140px;
+}
+
+header nav {
+  float: right;
+  position: relative;
+  bottom: -20px;
+  margin-top: -20px;
+  letter-spacing: 0.1rem;
+
+}
+
+header #logo {
+  float: left;
+}
+nav ul li{
+  display: inline-block;
+}
+
+nav a{
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 1rem 0.2rem;
+  margin: 0 10px;
+  color: #454a4e;
+}
+
+nav a:hover{
+  border-bottom: 0.2rem solid #458cdd;
+}
+
+/* Banner and its content */
+.banner{
+  width: 100%;
+  height: 450px;
+  box-sizing: border-box;
+  background-image: url("assets/background.png");
+  color: #fff;
+  padding: 10px 125px;
+}
+
+.banner .container{
+  position: relative;
+  display: inline;
+}
+.banner article{
+  width: 100%;
+  float: right;
+}
+
+.banner article .image {
+  width: 450px;
+  height: 430px;
+  box-sizing: border-box;
+  text-align: center;
+  float: left;
+}
+
+.banner article .content{
+  width: 450px;
+  height: 430px;
+  box-sizing: border-box;
+  padding: 120px 40px;
+  float: right;
+
+}
+.banner article .content header {
+  font-size: 2.5rem;
+  padding: 0;
+}
+
+.banner article .content p {
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+}
+
+/* Banner button */
+.sign-up{
+  background: #458cdd;
+  color: white;
+  border: 0px solid transparent;
+  font-size: 1.25rem;
+  padding: 0.6rem;
+  border-radius: 0.2rem;
+}
+
+.sign-up:hover{
+  background: #db454d;
+}
+
+.fa-angle-left, .fa-angle-right{
+  position: absolute;
+  top: 200px;
+}
+.fa-angle-right{
+  right: -1000px;
+}
+
+/* starred features */
+.features{
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features .feature{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features .feature header{
+  color: #458cdd;
+  box-sizing: border-box;
+  font-size: 1.25rem;
+  padding: 20px 10px 0;
+  text-align: center;
+}
+
+.features .feature p{
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.features .icon{
+  padding:60px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features .icon.red{
+  background: #db454d;
+}
+
+.features .icon.blue{
+  background: #458cdd;
+}
+
+.features .icon.yellow{
+  background: gold;
+}
+/* Shopping  section*/
+.store{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.store header{
+  font-size: 2.5rem;
+  padding: 0;
+}
+
+.store .shopping-cart{
+  margin: 20px 10px;
+  display: flex;
+}
+
+.store .image{
+  width: 50%;
+}
+
+.store .content{
+  width: 50%;
+}
+
+.store .content header{
+  font-size: 1.5rem;
+}
+
+.store .content p{
+  color: #8e8e8c;
+  line-height: 2.1rem;
+  font-size: 0.93rem;
+}
+
+footer{
+  width: 100%;
+  border-top: solid 1px #8e8e8c;
+}
+footer p{
+  text-align: center;
+  line-height: 2.3rem;
+  font-size: 0.93rem;
+  color: #8e8e8c;
+}
+
+.clearfix{
+  clear: both;
+}
