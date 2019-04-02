@@ -1,56 +1,49 @@
-#main-nav {
+.main-header {
+    margin: 5px auto;
+    width: 80%;
+    height: 44px;
+}
+
+.main-navigation {
     float: right;
 }
 
-#header-space-right {
-    float: right;
-    height: 44px;
-    width: 10%;
-}
-
-#header-space-left {
-    float: left;
-    height: 44px;
-    width: 10%;
-}
-
-ul {
+.navigation-item {
     list-style-type: none;
     margin: 0;
     padding: 0;
     float: right;
 }
 
-li {
+.navigation-item li {
     float: left;
-}
-
-li a{
-    display: block;
     height: 44px;
     width: 100px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation-item li a{
+    display: block;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 5px;
     text-decoration: none;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
     color: gray;
 }
 
-li a:hover{
+.navigation-item li a:hover{
     border-bottom: solid;
     border-color: cornflowerblue;
 }
 
-#slider {
+.slider {
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-    
+    color: white;   
 }
 
 .back-img {
@@ -83,7 +76,7 @@ li a:hover{
     font-size: 20px;
 }
 
-#sign-up-button{
+.sign-up-button{
     background-color: cornflowerblue;
     border: none;
     color: white;
@@ -93,10 +86,9 @@ li a:hover{
     font-size: 16px;
     line-height: 20px;
     cursor: pointer;
-    
 }
 
-#sign-up-button img{
+.sign-up-button img{
     max-height: 15px;
 }
 
@@ -137,7 +129,7 @@ li a:hover{
     background-color:#ffd11a;
 }
 
-div.feature {
+.feature {
     display: inline-block;
     width: 300px;
     height: 300px;
@@ -146,7 +138,7 @@ div.feature {
     box-sizing: border-box;
 }
 
-div.feature a {
+.feature a {
     text-decoration: none;
 }
 
@@ -156,12 +148,12 @@ div.feature a {
     vertical-align: middle;
 }
 
-div.circle-shape img {
+.circle-shape img {
     vertical-align: middle;
     max-height: 40%;
 }
 
-a.feature-link {
+.feature-link {
     text-decoration: none;
     color: rgba(100, 149, 237,.75);
     font-size: 14px;
@@ -171,33 +163,33 @@ a.feature-link {
     font-size: 12px;
 }
 
-#shopping-basket {
+.shopping-basket {
     height: 400px;
     width: 50%;
     float: left;
 }
 
-#shopping-desc {
+.shopping-desc {
     height: 400px;
     width: 50%;
     float: right;
     text-align: left;
 }
 
-div#shopping-basket img {
+.shopping-basket img {
     max-height: 70%;
 }
 
-div#shopping-basket h3 {
+.shopping-basket h3 {
     font-size: 25px;
 }
 
-div#shopping-desc h4{
+.shopping-desc h4{
     padding-top: 40px;
     font-size: 18px;
 }
 
-div#shopping-desc p{
+.shopping-desc p{
     font-size: 12px;
     line-height: 24px;
 }
