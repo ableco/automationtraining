@@ -7,4 +7,3 @@ export default class Login {
         this.submit = Selector('.btn')
     }
 }
-
