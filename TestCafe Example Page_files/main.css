@@ -1,0 +1,480 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Horizontal line
+ */
+hr {
+  margin-top: 41px;
+  margin-bottom: 9px;
+  border-top: 1px solid #e6e6e6; }
+
+/**
+ * Basic styling
+ */
+body {
+  font: normal 14px/1.5 "Segoe UI", Frutiger, "Frutiger Linotype", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+  color: #111;
+  background-color: #ffffff; }
+
+/**
+ * Scrollbars always visible
+ */
+html {
+  overflow-y: scroll; }
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl, pre {
+  margin-bottom: 20px; }
+
+blockquote,
+figure, table {
+  margin: 40px 0; }
+
+h2, h3, h4, h5, h6 {
+  margin-top: 40px; }
+
+h1 {
+  margin-top: 40px; }
+  h1:first-child {
+    margin-top: 0; }
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+/**
+ * Videos
+ */
+video {
+  max-width: 100%; }
+
+/**
+ * Figures
+ */
+figure > img {
+  display: block; }
+
+figcaption {
+  font-size: 12.25px; }
+
+/**
+ * Lists
+ */
+ul, ol {
+  margin-left: 40px; }
+
+li > ul,
+li > ol {
+  margin-bottom: 0; }
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+  h1:hover .permalink, h2:hover .permalink, h3:hover .permalink, h4:hover .permalink, h5:hover .permalink, h6:hover .permalink {
+    display: inline; }
+
+.permalink {
+  color: #828282;
+  display: none; }
+
+/**
+ * Links
+ */
+a {
+  color: #2fa4cf;
+  text-decoration: none; }
+  a:hover {
+    color: #111;
+    text-decoration: underline; }
+
+.anchor {
+  display: block;
+  position: relative;
+  top: calc(-75px - 8px);
+  visibility: hidden; }
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: #828282;
+  border-top: 1px solid #e6e6e6;
+  padding: 8px 0 0 48px;
+  font-style: italic;
+  background-image: url("/testcafe/images/icon-note.png");
+  background-repeat: no-repeat;
+  background-position: 0px 10px; }
+  blockquote.important {
+    background-image: url("/testcafe/images/icon-warning.png");
+    color: #815f3a; }
+  blockquote :last-child {
+    margin-bottom: 0; }
+
+.blockquote-content {
+  border-bottom: 1px solid #e6e6e6;
+  min-height: 48px; }
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  background-color: #f8f8ff;
+  color: #219161;
+  font-style: normal; }
+
+code {
+  padding: 1px 5px;
+  white-space: pre; }
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto; }
+  pre > code {
+    border: 0;
+    padding: 0; }
+
+/**
+ * Page content
+ */
+.container {
+  padding-top: 75px;
+  max-width: 1600px;
+  margin: auto;
+  padding-left: 100px; }
+
+/**
+ * Tables
+ */
+table {
+  border-collapse: collapse; }
+
+table > thead > tr > th {
+  border-bottom: 1px solid #cfcfcf;
+  text-align: left; }
+
+table > tbody > tr > th,
+table > tbody > tr > td,
+table > thead > tr > th,
+table > thead > tr > td {
+  padding: 5px 10px; }
+
+table > tbody > tr > td {
+  border-bottom: 1px solid #e6e6e6; }
+
+/**
+ * Site header
+ */
+.site-header {
+  background-color: #a4cada;
+  top: 0;
+  height: 75px;
+  width: 100%;
+  z-index: 1;
+  min-width: 1230px; }
+  .site-header .site-header-content {
+    max-width: 1500px;
+    margin: auto; }
+  .site-header.fixed {
+    position: fixed; }
+  .site-header .star-button {
+    display: inline-block;
+    height: 28px;
+    width: 113px;
+    margin: 0 0 2px 26px;
+    vertical-align: text-bottom; }
+  .site-header .site-logo {
+    background-image: url("/testcafe/images/site-header-logo.svg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    display: block;
+    float: left;
+    height: 29px;
+    width: 147px;
+    margin: 23px 0; }
+  .site-header #twitter-button {
+    background-image: url("/testcafe/images/twitter.svg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    display: inline-block;
+    height: 21px;
+    width: 25px;
+    margin: 31px 12px 0 10px; }
+  .site-header #search-panel {
+    position: relative;
+    top: -40px;
+    background-color: #a4cada;
+    opacity: 1; }
+    .site-header #search-panel.hidden {
+      display: none;
+      opacity: 0; }
+    .site-header #search-panel #close-search {
+      background-image: url("/testcafe/images/landing-page/close.svg");
+      background-repeat: no-repeat;
+      background-color: transparent;
+      background-size: contain;
+      height: 17px;
+      width: 17px;
+      float: right;
+      margin: 12px 0 0 15px;
+      cursor: pointer; }
+
+#search-icon {
+  background-image: url("/testcafe/images/search.svg");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  display: inline-block;
+  height: 21px;
+  width: 21px;
+  cursor: pointer; }
+
+#search {
+  background-image: url("/testcafe/images/landing-page/find-icon-black.svg");
+  background-repeat: no-repeat;
+  background-position: 12px 10px;
+  font-size: 14px;
+  padding-left: 42px;
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 870px; }
+  @media (max-width: 1310px) {
+    #search {
+      width: 780px; } }
+
+.site-header-content {
+  padding: 0 100px;
+  min-width: calc(1230px - 200px); }
+
+.site-nav {
+  float: right;
+  height: 70px; }
+  .site-nav .hamburger-button {
+    display: none; }
+  .site-nav .menu-icon {
+    display: none; }
+  .site-nav .site-nav-tab {
+    display: inline-block;
+    vertical-align: super;
+    padding: 5px 15px 7px; }
+    @media (max-width: 1310px) {
+      .site-nav .site-nav-tab {
+        padding-left: 7px;
+        padding-right: 7px; } }
+    .site-nav .site-nav-tab.active {
+      background-color: #ebeeef;
+      border-radius: 5px; }
+    .site-nav .site-nav-tab .page-link {
+      font-size: 15px;
+      font-weight: bold;
+      color: #404142;
+      padding-top: 0; }
+
+#studio-link-tab {
+  margin: 0 10px;
+  padding: 0px 10px 2px;
+  background: linear-gradient(260.4deg, #389ACE 0%, #5CACE8 100%);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+  transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg); }
+  #studio-link-tab .page-link {
+    display: block;
+    color: #fff;
+    transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    -moz-transform: skewX(20deg); }
+
+html, body {
+  height: 100%;
+  min-width: 1230px; }
+
+.page-content-wrapper {
+  min-height: 100%;
+  height: auto !important;
+  margin: 0 auto calc(-113px); }
+
+/**
+ * Site footer
+ */
+.site-footer-content {
+  padding: 22px 30px 0;
+  font-size: 14px;
+  color: #7e8082;
+  line-height: 1.6;
+  text-align: center; }
+  .site-footer-content p, .site-footer-content ul, .site-footer-content ol, .site-footer-content dl, .site-footer-content pre {
+    margin-bottom: 0; }
+
+.site-footer {
+  height: 113px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  border-top: 1px solid #e6e6e6;
+  box-sizing: border-box; }
+
+.push {
+  height: 113px; }
+
+.bottom {
+  bottom: 63px; }
+
+.post-content h1 {
+  font-weight: bold;
+  font-size: 38px;
+  color: #404142; }
+.post-content h2 {
+  font-size: 32px; }
+.post-content h3 {
+  font-size: 24px; }
+.post-content h4 {
+  font-size: 18px;
+  font-weight: bold; }
+.post-content h5 {
+  font-size: 14px;
+  font-weight: bold; }
+
+.post {
+  min-width: 550px;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 25px 0 70px 0; }
+  .post h1 {
+    font-weight: bold;
+    color: #404142;
+    margin: -8px 0 30px; }
+
+.blog-title {
+  font-size: 38px;
+  margin-top: -12px; }
+
+.post-list {
+  padding-top: 16px; }
+
+.post-preview {
+  padding-top: 35px; }
+  .post-preview a {
+    color: inherit; }
+    .post-preview a:hover {
+      text-decoration: none; }
+
+.post-title {
+  color: #404142;
+  font-size: 24px;
+  font-weight: bold;
+  margin: -4px 0 10px; }
+
+.post-extract {
+  border-top: 1px solid #e6e6e6;
+  padding: 4px 0 10px 20px; }
+  .post-extract p, .post-extract ul, .post-extract ol, .post-extract dl, .post-extract pre {
+    margin-bottom: 4px; }
+
+.post-date {
+  font-weight: bold;
+  color: #a7a7a7; }
+
+.read-more {
+  color: #2fa4cf;
+  font-weight: bold;
+  margin-top: 5px; }
+  .read-more a:hover {
+    text-decoration: underline; }
+
+#back-to-posts-link {
+  padding-top: 15px; }
+  #back-to-posts-link p {
+    padding-top: 4px;
+    border-top: 1px solid #e6e6e6;
+    display: inline-block; }
+
+#disqus_thread {
+  margin: 60px auto 0;
+  max-width: 710px; }
+
+.faq {
+  min-width: 550px;
+  max-width: 920px;
+  margin: 32px auto 0; }
+  .faq .anchor {
+    top: -80px; }
+
+.post-subheader {
+  color: #b3b3b3; }
+
+.cookie-notice {
+  display: none;
+  position: fixed;
+  background-color: #fff;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  z-index: 15000;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.15); }
+  .cookie-notice.visible {
+    display: block; }
+  .cookie-notice .close-icon {
+    background-image: url("/testcafe/images/landing-page/close.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer; }
+  .cookie-notice .cookie-notice-content {
+    max-width: 1500px;
+    padding: 17px 15px;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .cookie-notice .cookie-notice-content .cookie-notice-message {
+      max-width: 90%; }
+      .cookie-notice .cookie-notice-content .cookie-notice-message .cookie-notice-header {
+        color: #000;
+        font-weight: bold;
+        font-size: 18px; }
+      .cookie-notice .cookie-notice-content .cookie-notice-message .cookie-notice-text {
+        max-width: 1150px;
+        font-size: 14px;
+        padding-right: 30px; }
+        .cookie-notice .cookie-notice-content .cookie-notice-message .cookie-notice-text a {
+          color: #111;
+          text-decoration: underline; }
+    .cookie-notice .cookie-notice-content .cookie-notice-button {
+      min-width: 96px;
+      color: #000;
+      padding: 5px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 50px;
+      border: 2px solid #000;
+      background-color: #fff;
+      cursor: pointer; }
+
+.doc-top-nav {
+  display: none; }
