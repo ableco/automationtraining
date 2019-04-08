@@ -17,10 +17,15 @@ test('Create ', async t => {
     await t
         .click(createEquity.company)
         .click(createEquity.companyValue.withText('15Five'))
-        // .expect(createEquity.companyValue.value).eql('15Five')
         .click(createEquity.portfolio)
         .click(createEquity.companyValue.withText('Actions Portfolio'))
         .click(createEquity.investementType)
-
+        .click(createEquity.series)
+        .click(createEquity.seriesValue.withText('Common Stock'))
+        .typeText(createEquity.investmentAmount, '1000')
+        .typeText(createEquity.sharesNumber, '5')
+        .click(createEquity.addHoldingBtn)
+        .expect(createEquity.investmentModal.innerText).contains('Investment Added!')
+        .click(createEquity.viewInvestment)
 });
 
