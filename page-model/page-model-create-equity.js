@@ -14,6 +14,6 @@ export default class CreateEquity {
         this.addHoldingBtn = Selector('.Button--primary').withText('Add Holding')
         this.investmentModal = Selector('.CreatedInvestmentConfirmation')
         this.viewInvestment = Selector('.btn .Button-holder').withText('View Investment')
-
+        this.investmentDetail = Selector('.InvestmentView-sidebar .u-sectionHeading')
     }
 }

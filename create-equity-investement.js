@@ -27,5 +27,6 @@ test('Create ', async t => {
         .click(createEquity.addHoldingBtn)
         .expect(createEquity.investmentModal.innerText).contains('Investment Added!')
         .click(createEquity.viewInvestment)
+        .expect(createEquity.investmentDetail.innerText).contains('Holding Summary')
 });
 
