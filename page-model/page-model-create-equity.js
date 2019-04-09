@@ -1,4 +1,4 @@
-import { Selector } from 'testcafe';
+import { Selector, t } from 'testcafe';
 
 export default class CreateEquity {
     constructor () {
@@ -16,4 +16,23 @@ export default class CreateEquity {
         this.viewInvestment = Selector('.btn .Button-holder').withText('View Investment')
         this.investmentDetail = Selector('.InvestmentView-sidebar .u-sectionHeading')
     }
+
+
+    async createEquity() {
+        await t 
+            .click(this.company)
+            .click(this.companyValue.withText('15Five'))
+            .click(this.portfolio)
+            .click(this.companyValue.withText('Actions Portfolio'))
+            .click(this.investementType)
+            .click(this.series)
+            .click(this.seriesValue.withText('Common Stock'))
+            .typeText(this.investmentAmount, '1000')
+            .typeText(this.sharesNumber, '5')
+            .click(this.addHoldingBtn)
+            .expect(this.investmentModal.innerText).contains('Investment Added!')
+            .click(this.viewInvestment)
+            .expect(this.investmentDetail.innerText).contains('Holding Summary');
+    }
 }
+
