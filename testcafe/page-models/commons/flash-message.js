@@ -1,7 +1,7 @@
-import { t, Selector } from 'testcafe';
+import { Selector } from "testcafe";
 
-export default class FlashMessage{
-    constructor(){
-        this.message = Selector('div .Flash .Alert-body');
-    }
+export default class FlashMessage {
+  constructor() {
+    this.message = Selector("div .Flash .Alert-body");
+  }
 }

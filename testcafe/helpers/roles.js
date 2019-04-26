@@ -4,7 +4,7 @@ import LoginPage from "../page-models/login";
 const loginPage = new LoginPage();
 
 const loginAccount = Role(
-    "http://mighty-client-qa-stable.herokuapp.com",
+    "https://mighty-client-qa-stable.herokuapp.com/login",
     async t => {
       await login("admin@able.co", "password");
       await t.wait(5000);
