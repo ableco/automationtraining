@@ -1,0 +1,19 @@
+{
+  "name": "automationtraining",
+  "env": {
+    "REVIEW_APP": {
+      "value": "true"
+    },
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "hobby"
+    },
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

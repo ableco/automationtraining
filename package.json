@@ -1,0 +1,23 @@
+{
+  "name": "automationtraining",
+  "version": "1.0.0",
+  "description": "This repo serves for automation training 2019-I",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ableco/automationtraining.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ableco/automationtraining/issues"
+  },
+  "homepage": "https://github.com/ableco/automationtraining#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
