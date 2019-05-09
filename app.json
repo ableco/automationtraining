@@ -1,19 +1,13 @@
 {
   "name": "automationtraining",
-  "env": {
-    "REVIEW_APP": {
-      "value": "true"
-    },
-  },
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "hobby"
-    },
-  },
+  "scripts": {},
+  "env": {},
+  "formation": {},
+  "addons": [],
   "buildpacks": [
     {
       "url": "heroku/nodejs"
     }
-  ]
+  ],
+  "stack": "heroku-18"
 }
