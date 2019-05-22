@@ -1,0 +1,129 @@
+.features {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    padding-top: 100px;
+}
+.feature {
+    display: inline-block;
+    margin-right: 30px;
+}
+.icon-1 {
+    background: #5094f2;
+    border-radius: 50%;
+    padding-bottom: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 30px;
+    display: inline-block;
+}
+.icon-2 {
+    background:#db4646;
+    border-radius: 50%;
+    padding-bottom: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 45px;
+    display: inline-block;
+}
+.icon-3 {
+    background: #ecbc0a;
+    border-radius: 50%;
+    padding-bottom: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 45px;
+    display: inline-block;
+}
+
+.feature h2 {
+    color:#5094f2;
+    font-family: inherit;
+}
+
+.feature p {
+    color: gray;
+    font-size: auto; 
+}
+
+.shopping-cart {
+    padding-left: 270px;
+    padding-top: 50px;
+}
+
+.shopping-cart h2{
+    padding-left: 90px;
+    padding-top: 0px;
+}
+
+/*.main-container {
+    margin: 30px 70px 200px 200px;
+}*/
+
+.main-banner {
+    background-image: url(images/background.png);
+    max-width:100%;
+    height: 350px;
+    text-align: center;
+}
+
+.item{
+    display:inline-block;
+    padding: 20px;
+}
+
+.banner-text {
+    text-align: justify;
+    padding-left: 50px;
+    padding-top: 40px;
+    color: white;
+}
+
+.banner-text h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: inherit;
+    font-style: normal;
+    margin: 0;
+    line-height: 0px;
+}
+
+.banner-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: inherit;
+    font-style: normal;
+    line-height: 40px;
+}
+
+.iphone {
+    width: 240px;
+    padding-top: 20px;
+}
+
+.iphone,
+.banner-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.iphone img {
+    width: 100%;
+    height: auto;
+}
+
+.button {
+    background: #5094f2;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    width: 160px;
+    height: 35px;
+    text-align: right;
+}
+
+.check-icon {
+    background: url(images/icon-check.png) no-repeat;
+}
