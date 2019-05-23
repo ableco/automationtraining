@@ -49,21 +49,24 @@
     margin-top: 10px;
 }
 .logo {
-    padding-left: 100px;
+    padding-left: 200px;
+}
+
+.logo img {
+    padding-top: 15px;
 }
 .main-banner {
     background-image: url(images/background.png);
     max-width:100%;
-    height: 400px;
-    margin-top: 30px;
+    height: 500px;
+    margin-top: 15px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .main-menu {
     float: right;
-    padding-right: 300px;
-    box-sizing: border-box;
-    padding-top: 17px; 
+    padding-right: 230px;
+    padding-top: 15px; 
 }
 .main-menu a:hover {
     border-bottom: solid 3px #5094f2;
@@ -78,12 +81,12 @@
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 23px;
 }
 .banner-text {
     text-align: justify;
     padding-left: 35px;
-    padding-top: 5px;
+    margin-bottom: 50px;
     color: white;
     margin-left: 70px;
 }
@@ -96,14 +99,14 @@
 }
 .banner-text p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: inherit;
     font-style: normal;
     line-height: 40px;
     line-height: 20px;
 }
 .iphone {
-    width: 290px;
+    width: 360px;
     padding-top: 25px;
     padding-left: 370px;
 }
@@ -182,8 +185,7 @@ vertical-align: middle;
 .footer {
     background-color: rgb(150, 146, 146);
     height: 1.5px;
-    max-width: 95%;
-    opacity: 100%;
+    max-width: 100%;
 }
 .footer p {
     color: gray;
