@@ -1,7 +1,7 @@
-import { Selector, t } from 'testcafe'
+import { Selector, t } from 'testcafe';
 
-export default class HoldingSummaryPage{
-    constructor(){
+export default class HoldingSummaryPage {
+    constructor() {
         this.holdingPageTitle = Selector('.OverviewSection').child('h2');
         this.actionsButton = Selector('.InvestmentActionsDropdown .Button-holder').withText('Actions');
         this.actionsEditDropDown = Selector('.InvestmentActionsDropdown .DropdownMenu').find('a').withText('Update Valuation');
@@ -12,9 +12,9 @@ export default class HoldingSummaryPage{
         this.saveChangesButton = Selector('.ValuationModal .Button-holder').withText('Save Changes');
         this.removeHoldingButton = Selector('.ModalContent.isFirstChild .ModalFooter').find('button').child('span').withText('Remove');
         this.getMarketValueRow = Selector('.TableWrapper .Table--body .Table--row .u-smallBoldDark').nth(1);
-    }
+    };
 
-    async editInvestmentMarketValue(data){
+    async editInvestmentMarketValue(data) {
         await t
             .click(this.actionsButton)
             .click(this.actionsEditDropDown)
@@ -22,12 +22,12 @@ export default class HoldingSummaryPage{
             .typeText(this.addPricePerUnitInput, data.pricePerUnit)
             .click(this.saveChangesButton);
         return await this.marketValueInput.value;
-    }
+    };
 
-    async deleteInvestment(){
+    async deleteInvestment() {
         await t
             .click(this.actionsButton)
             .click(this.actionsDeleteDropDown)
             .click(this.removeHoldingButton);
-    }
-}
+    };
+};
