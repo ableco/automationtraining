@@ -10,6 +10,7 @@ const createHoldingPage = new CreateHoldingPage();
 const creatingHoldingData = {
     companyName: 'Amplitude',
     portfolioName: 'Portfolio for Towne LLC',
+    typeInvestment: 'Equity',
     series: 'Series B',
     acquisitionDate: '06/21/2019',
     amountInput: '1000',
@@ -19,6 +20,7 @@ const creatingHoldingData = {
 const editingHoldingData = {
     companyName: 'Betable',
     portfolioName: 'Portfolio for Hansen, Paucek and Kihn',
+    typeInvestment: 'Equity',
     series: 'Series A',
     acquisitionDate: '04/20/2019',
     amountInput: '1000',
@@ -28,6 +30,7 @@ const editingHoldingData = {
 const deletingHoldingData = {
     companyName: 'Able',
     portfolioName: 'Portfolio for Walsh LLC',
+    typeInvestment: 'Equity',
     series: 'Series C',
     acquisitionDate: '05/19/2019',
     amountInput: '1000',

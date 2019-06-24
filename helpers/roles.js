@@ -1,4 +1,4 @@
-import { Role } from 'testcafe';
+import { Role, t } from 'testcafe';
 import LoginPage from '../pages/login_page';
 
 
@@ -14,7 +14,10 @@ const loginMighty = Role(
 );
 
 const login = async (email, password) => {
-  await loginPage.login(email, password);
+  await t
+    .typeText(loginPage.emailAddressInput, email)
+    .typeText(loginPage.passwordInput, password)
+    .click(loginPage.loginButton);
 };
 
 export { loginMighty };

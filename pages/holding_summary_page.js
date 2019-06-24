@@ -6,12 +6,12 @@ export default class HoldingSummaryPage {
         this.actionsButton = Selector('.InvestmentActionsDropdown .Button-holder').withText('Actions');
         this.actionsEditDropDown = Selector('.InvestmentActionsDropdown .DropdownMenu').find('a').withText('Update Valuation');
         this.actionsDeleteDropDown = Selector('.InvestmentActionsDropdown .DropdownMenu').find('a').withText('Delete Holding');
-        this.addDescriptionInput = Selector('.ValuationModal .TableWrapper .Table .Table--body .FormElement.FormElement--textInput.FormElement--note.small').find('input').nth(0);
-        this.addPricePerUnitInput = Selector('.ValuationModal .TableWrapper .Table .Table--row-item.Table--row-item.ValuationRow--price.u-rightAlignedText .InputHolder').find('input').nth(0);
-        this.marketValueInput = Selector('.ValuationModal .TableWrapper .Table .Table--row-item.Table--row-item.ValuationRow--value.u-rightAlignedText .InputHolder').find('input').nth(0);
+        this.addDescriptionInput = Selector('.ValuationModal .FormElement--note.small').find('input').nth(0);
+        this.addPricePerUnitInput = Selector('.ValuationModal .ValuationRow--price .InputHolder').find('input').nth(0);
+        this.marketValueInput =     Selector('.ValuationModal .ValuationRow--value .InputHolder').find('input').nth(0);
         this.saveChangesButton = Selector('.ValuationModal .Button-holder').withText('Save Changes');
         this.removeHoldingButton = Selector('.ModalContent.isFirstChild .ModalFooter').find('button').child('span').withText('Remove');
-        this.getMarketValueRow = Selector('.TableWrapper .Table--body .Table--row .u-smallBoldDark').nth(1);
+        this.getMarketValueRow = Selector('.TableWrapper .u-smallBoldDark').nth(1);
     };
 
     async editInvestmentMarketValue(data) {

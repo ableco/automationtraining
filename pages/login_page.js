@@ -6,11 +6,4 @@ export default class LoginPage {
         this.passwordInput = Selector('.InputText').withAttribute('name', 'passwordInput');
         this.loginButton = Selector('.LoginAnimatedElement').withAttribute('type', 'submit');
     };
-
-    async login(email, password) {
-        await t
-            .typeText(this.emailAddressInput, email)
-            .typeText(this.passwordInput, password)
-            .click(this.loginButton);
-    };
 };

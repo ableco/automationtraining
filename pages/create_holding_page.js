@@ -12,7 +12,7 @@ export default class CreateHoldingPage {
         this.selectPortfolioDropDown = Selector('.SelectCurrentSelection .SelectCurrentSelection-controller').child('span').withText('Select a portfolio');
         this.portfolioInput = Selector('.InputText').withAttribute('placeholder', 'Portfolio');
         this.portfolioOptionSelected = Selector('.SelectPopup .SelectOptions .SelectOption .SelectOption-link');
-        this.typeInvestmentButton = Selector('.TabButton').child('span').withText('Equity');
+        this.typeInvestmentButton = Selector('.TabButton').child('span');
         this.equityHoldingDetailsTitle = Selector('.u-sectionHeading.FormSection-title');
         this.seriesDropDown = Selector('.SelectCurrentSelection-controller').child('span').withText('Select series for this holding...');
         this.seriesOptionSelected = Selector('.SelectOption').child('a');
@@ -26,8 +26,8 @@ export default class CreateHoldingPage {
         await dashboardPage.goToCreateHoldingForm();
         await this.selectCompany(holdingData.companyName);
         await this.selectPortfolio(holdingData.portfolioName);
-        await t.click(this.typeInvestmentButton)
-        await this.selectSerie(holdingData.series);
+        await t.click(Selector(this.typeInvestmentButton).withText(holdingData.typeInvestment));
+        await this.selectSeries(holdingData.series);
         await t
             .typeText(this.inputAcquisitionDate, holdingData.acquisitionDate, { replace: true })
             .typeText(this.investmentAmountInput, holdingData.amountInput)
@@ -49,7 +49,7 @@ export default class CreateHoldingPage {
             .click(Selector(this.portfolioOptionSelected).withExactText(portfolioName));
     }
 
-    async selectSerie(series) {
+    async selectSeries(series) {
         await t
             .click(this.seriesDropDown)
             .click(Selector(this.seriesOptionSelected).withText(series));
