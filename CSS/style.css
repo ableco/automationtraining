@@ -1,0 +1,129 @@
+
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
+
+}
+
+.banner {
+  overflow: hidden;
+}
+
+.nav-bar {
+  list-style: none;
+}
+
+.nav-logo {
+  display: inline-block;
+}
+
+.nav-buttons{
+  display: inline-block;
+}
+
+#banner-iphone {
+  width: 200px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.circular-icons {
+  overflow: hidden;
+}
+
+
+.icons {
+  float: left;
+  margin-left: 10%;
+}
+
+#icon-pencil {
+  background-color: blue;
+  padding: 30px;
+}
+
+#icon-desktop {
+  background-color: red;
+  padding: 30px;
+}
+
+#icon-basket {
+  background-color: yellow;
+  padding: 30px;
+}
+
+
+.shopping-cart {
+  float: left;
+  overflow: hidden;
+}
+
+#shopping-cart-icon {
+  width: 200px;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+}
+
+
+/*
+    CHALLENGE
+    — Apply a percent width to CONTENT ID of 75 percent and set the NAVIGATION ID to a width 25 percent
+    - Apply a height of 400 pixels to the CONTENT & NAVIGATION IDs
+    — Apply a pixel height to the HEADER and FOOTER ID of 50 pixels
+    — Apply the proper float values to the content and navigation IDs so that the element with the ID of CONTENT is on the left, and the element with the ID of NAVIGATIO is on the right.
+    — Apply a clear property that clears all floated elements to the FOOTER ID.
+*/
+/*
+
+Lorem Ipsum is not simply random text. It has roots in a piece
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header {
+  height: 50px;
+  background: #44accf;
+}
+#content {
+  float: left;
+  width: 75%;
+  height: 400px;
+	background: #b7d84b;
+}
+#navigation {
+  float: right;
+  width: 25%;
+  height: 400px;
+	background: #e2a741;
+}
+#footer {
+  height: 50px;
+  clear: both;
+  background: #ee3e64;
+}
+*/
+/*html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #bbb;
+    color: black;
+}
+body {
+    background-color: black;
+    color: white;
+}
+section {
+    padding: 0 25px;
+}*/
