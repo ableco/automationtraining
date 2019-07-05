@@ -14,21 +14,24 @@
 }
 
 .nav-logo {
-  display: inline-block;
+  display: inline;
+
 }
 
 .nav-buttons{
-  display: inline-block;
+  display: inline;
 }
 
-#banner-iphone {
-  width: 200px;
-  position: absolute;
-  top: 100px;
-  left: 100px;
+.banner {
   background-image: url(background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
+}
+
+.banner-content {
+
+
 }
 
 .circular-icons {
@@ -56,30 +59,29 @@
   padding: 30px;
 }
 
-
-.shopping-cart {
-  float: left;
+#cart-icon {
+  width: 300px;
   overflow: hidden;
 }
 
-#shopping-cart-icon {
-  width: 200px;
+#shopping-cart-subtitle {
+  position: relative;
+}
+
+#shopping-cart-text  {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
 }
 
 footer {
-  position: absolute;
+  bottom: 0;
+  left: 50%;
   text-align: center;
 }
 
 
-/*
-    CHALLENGE
-    — Apply a percent width to CONTENT ID of 75 percent and set the NAVIGATION ID to a width 25 percent
-    - Apply a height of 400 pixels to the CONTENT & NAVIGATION IDs
-    — Apply a pixel height to the HEADER and FOOTER ID of 50 pixels
-    — Apply the proper float values to the content and navigation IDs so that the element with the ID of CONTENT is on the left, and the element with the ID of NAVIGATIO is on the right.
-    — Apply a clear property that clears all floated elements to the FOOTER ID.
-*/
+
 /*
 
 Lorem Ipsum is not simply random text. It has roots in a piece
@@ -112,6 +114,8 @@ div {
   background: #ee3e64;
 }
 */
+
+
 /*html, body {
     margin: 0;
     padding: 0;
