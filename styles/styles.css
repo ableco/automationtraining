@@ -30,35 +30,23 @@ h2, h3, h4, h5, h6 {
 
 .menu li a {
   text-decoration: none;
-  position: relative;
-  margin: 0;
-  padding: 0 25px;
-  height: 16px;
+  margin: 0 25px;
   color: #6c6c6c;
   font-size: 20px;
-  box-sizing: content-box;
 }
 
-.menu li a:hover::after {
-  content: "";
-  position: absolute;
-  left: 25%;
-  right: 25%;
-  bottom: -15px;
-  border: 2px solid #4B91EF;
+.menu li a:hover {
+  position: relative;
+  border-bottom: 3px solid #4B91EF;
+  padding-bottom: 10px;
 }
+
 
 .menu-item {
   display: inline-block;
 }
 
-#slider {
-  width: 1250px;
-  margin: 0 auto;
-	position: relative;
-}
-
-.slider-background {
+.banner {
   background-image: url('../images/background.png');
   height: 500px;
   background-repeat: no-repeat;
@@ -67,7 +55,7 @@ h2, h3, h4, h5, h6 {
 
 .slider-right-section {
   float: right;
-  width: 700px;
+  width: 55%;
   height: 500px;
   
 }
@@ -103,13 +91,13 @@ h2, h3, h4, h5, h6 {
 
 
 .slider-left-section {
-  width: 550px;
+  width: 50%;
   height: 500px; 
 }
 
 .slider-left-section img {
   margin-top: 32px;
-  margin-left: 102.5px;
+  margin-left: 40%;
 }
 
 .items-group {
@@ -130,50 +118,38 @@ h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.item-pencil-img { 
+.item-img { 
+  border-radius: 50%; 
+  height: 180px;
+  width: 180px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pencil-img {
   background-color: #4B90EE;
-  border-radius: 50%; 
-  height: 180px;
-  width: 180px;
-  margin: 0 auto;
   background-image: url('../images/icon-pencil.png');
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-.item-desktop-img { 
+.desktop-img { 
   background-color: #DE484C;
-  border-radius: 50%; 
-  height: 180px;
-  width: 180px;
-  margin: 0 auto;
   background-image: url('../images/icon-desktop.png');
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-.item-basket-img { 
+.basket-img { 
   background-color: #ECBC51;
-  border-radius: 50%; 
-  height: 180px;
-  width: 180px;
-  margin: 0 auto;
   background-image: url('../images/icon-basket.png');
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .item > .item-title {
   color: #8FB8F3;
-  font-family: Arial, Helvetica, sans-serif;
-
   font-size: 18px;
   margin-bottom: 0px; 
 }
 
 .item > .item-text {
   color: #7D8084;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   margin-top: 10px;
 }
@@ -195,7 +171,6 @@ h2, h3, h4, h5, h6 {
 .shopping-cart-title {
   text-align: center;
   margin-top: 100px;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 32px;
   color: #757779;
 }
@@ -210,14 +185,12 @@ h2, h3, h4, h5, h6 {
 .shopping-cart-right-title {
   text-align: left;
   margin-top: 80px;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: #757779;
 }
 
 .shopping-cart-right > p {
   text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #909294;
   line-height: 20px;
