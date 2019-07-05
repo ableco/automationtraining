@@ -39,9 +39,21 @@
 }
 
 
+
 .icons {
   float: left;
   margin-left: 10%;
+}
+
+.icons-title {
+  text-align: center;
+  color: blue;
+  margin: 5px;
+}
+
+.icons-text {
+  text-align: center;
+  margin: 0;
 }
 
 #icon-pencil {
@@ -61,17 +73,16 @@
 
 #cart-icon {
   width: 300px;
-  overflow: hidden;
+  float: left;
 }
 
-#shopping-cart-subtitle {
-  position: relative;
-}
 
 #shopping-cart-text  {
-  position: relative;
   width: 50%;
-  overflow: hidden;
+}
+
+.shopping-cart {
+  left: 50%;
 }
 
 footer {
@@ -114,20 +125,3 @@ div {
   background: #ee3e64;
 }
 */
-
-
-/*html, body {
-    margin: 0;
-    padding: 0;
-}
-body {
-    background-color: #bbb;
-    color: black;
-}
-body {
-    background-color: black;
-    color: white;
-}
-section {
-    padding: 0 25px;
-}*/
