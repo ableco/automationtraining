@@ -1,25 +1,31 @@
-
 * {
   box-sizing: border-box;
-  border: 1px solid red;
 
 }
 
-.banner {
-  overflow: hidden;
+.logo {
+  padding-left: 100px;
+  float: left;
+  display: inline-block;
+  margin-right: 700px;
 }
 
-.nav-bar {
+.nav-buttons {
   list-style: none;
+  display: inline-block;
+  padding: 6px;
+  margin-left: 10px;
+  border-bottom: 3px solid transparent;
 }
 
-.nav-logo {
-  display: inline;
-
+.nav-buttons:hover {
+  border-bottom: 3px solid grey;
 }
 
-.nav-buttons{
-  display: inline;
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .banner {
@@ -30,98 +36,145 @@
 }
 
 .banner-content {
-
-
+  position: absolute;
+  top: 100px;
+  right: 200px;
+  color: white;
+  width: 500px;
+  height: 300px;
+  margin: 20px;
 }
 
-.circular-icons {
-  overflow: hidden;
+.banner-content h2 {
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 34px;
 }
 
+.banner-content p {
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+}
 
+.banner-iphone {
+  position: absolute;
+}
 
-.icons {
+.banner-check {
+  margin-top: 0;
+  border-radius: 2px;
+  padding: 4px 10px 4px 6px;
+  color: white;
+  display: inline-block;
+}
+
+.banner-button-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+article {
   float: left;
+  width: 20%;
+}
+
+article + article {
   margin-left: 10%;
+}
+
+.icon-style {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 250px;
+  margin-top: 100px;
 }
 
 .icons-title {
   text-align: center;
   color: blue;
-  margin: 5px;
+  width: 300px;
+  margin-left: 180px;
 }
 
 .icons-text {
   text-align: center;
-  margin: 0;
+  font-size: 14px;
+  color: #6c6c6c;
+  width: 300px;
+  margin-left: 180px;
 }
 
-#icon-pencil {
-  background-color: blue;
+.icon-pencil {
+  background-color: #5094f2;
+  display: inline-block;
   padding: 30px;
 }
 
-#icon-desktop {
-  background-color: red;
-  padding: 30px;
+#pencil {
+  width: 65px;
+  height: 90px;
 }
 
-#icon-basket {
-  background-color: yellow;
-  padding: 30px;
+.icon-desktop {
+  background-color: #da4748;
+  display: inline-block;
+  padding: 40px;
+}
+
+#desktop {
+  width: 65px;
+  height: 70px;
+}
+
+.icon-basket {
+  background-color: #ebbc30;
+  display: inline-block;
+  padding: 40px;
+}
+
+#basket {
+  width: 65px;
+  height: 70px;
 }
 
 #cart-icon {
   width: 300px;
-  float: left;
+  margin-left: 150px;
 }
 
+
+#shopping-cart-title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6c6c6c;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+#shopping-cart-subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #6c6c6c;
+  margin: 0;
+}
 
 #shopping-cart-text  {
-  width: 50%;
-}
-
-.shopping-cart {
-  left: 50%;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #6c6c6c;
+  margin: 0;
 }
 
 footer {
-  bottom: 0;
-  left: 50%;
   text-align: center;
+  width: 100%;
+  color: #909090;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
 }
-
-
-
-/*
-
-Lorem Ipsum is not simply random text. It has roots in a piece
-
-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#header {
-  height: 50px;
-  background: #44accf;
-}
-#content {
-  float: left;
-  width: 75%;
-  height: 400px;
-	background: #b7d84b;
-}
-#navigation {
-  float: right;
-  width: 25%;
-  height: 400px;
-	background: #e2a741;
-}
-#footer {
-  height: 50px;
-  clear: both;
-  background: #ee3e64;
-}
-*/
