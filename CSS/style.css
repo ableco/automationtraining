@@ -82,22 +82,13 @@ a {
 
 .banner-button {
   height: 32px;
-  display: inline-block;
-  padding: 5px 15px;
+  padding: 10px 15px;
   background: #5094f3;
-
+  align-content: center;
 }
 
 .banner2 a {
   color: white;
-}
-
-.banner-check {
-  margin-top: 0;
-  border-radius: 2px;
-  padding: 4px 10px 4px 6px;
-  color: white;
-  display: inline-block;
 }
 
 article {
