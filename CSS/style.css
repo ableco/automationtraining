@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+
+}
+
+header {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+body {
+  margin: 0 auto;
+}
+
+
+.logo {
+  float: left;
+  display: inline-block;
+}
+
+.nav-bar ul {
+  float: right;
+}
+
+.nav-buttons {
+  list-style: none;
+  padding: 6px;
+  margin-left: 10px;
+  border-bottom: 3px solid transparent;
+  display: inline-block;
+}
+
+.nav-buttons:hover {
+  border-bottom: 3px solid grey;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.banner2 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.banner-content {
+  position: absolute;
+  top: 100px;
+  right: 200px;
+  color: white;
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+}
+
+.banner-content h2 {
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 34px;
+}
+
+.banner-content p {
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.banner-iphone {
+  position: absolute;
+}
+
+.banner-button {
+  height: 32px;
+  padding: 10px 15px;
+  background: #5094f3;
+  align-content: center;
+}
+
+.banner2 a {
+  color: white;
+}
+
+article {
+  float: left;
+  width: 26%;
+}
+
+article + article {
+  margin-left: 10%;
+}
+
+.circular-icons {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 20px auto 0;
+
+}
+
+.icon-style {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.icons-title {
+  text-align: center;
+  color: blue;
+}
+
+.icons-text {
+  text-align: center;
+  font-size: 14px;
+  color: #6c6c6c;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.icon-pencil {
+  background-color: #5094f2;
+  padding: 30px;
+}
+
+#pencil {
+  width: 65px;
+  height: 90px;
+}
+
+.icon-desktop {
+  background-color: #da4748;
+  padding: 40px;
+}
+
+#desktop {
+  width: 65px;
+  height: 70px;
+}
+
+.icon-basket {
+  background-color: #ebbc30;
+  padding: 40px;
+}
+
+#basket {
+  width: 65px;
+  height: 70px;
+}
+
+.shopping-cart {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#cart-icon {
+  width: 300px;
+  margin-right: 100px;
+  float: left;
+}
+
+
+#shopping-cart-title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6c6c6c;
+  font-size: 30px;
+  font-weight: 200;
+  margin-left: 20px;
+}
+
+#shopping-cart-subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #6c6c6c;
+  margin: 0;
+}
+
+#shopping-cart-text  {
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #6c6c6c;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  color: #909090;
+  padding-top: 20px;
+}
