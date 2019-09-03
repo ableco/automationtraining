@@ -17,11 +17,15 @@ const creatingHoldingData = {
     sharesInput: '2'
 };
 
-
+fixture('Equity Holding Operations')
+   .beforeEach(async t => {
+       await t
+           .useRole(loginMighty);
+   });
 
 test("Create Investment", async t => {
     await createHoldingPage.createNewHolding(creatingHoldingData);
-    //await t.expect(dashboardPage.investmentModal.innerText).eql('Investment Added!')
+    await t.expect(dashboardPage.investmentModal.innerText).eql('Investment Added!')
     await dashboardPage.goToHoldingView();
     await t.expect(holdingSummaryPage.holdingPageTitle.innerText).eql('Holding Summary');
 });
